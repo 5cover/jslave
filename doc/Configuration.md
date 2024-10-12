@@ -13,9 +13,10 @@ Definition|current definition
 
 ## Configuration values
 
-Name|Type|Affects
+Name|Type|Default value|Affects
 -|-|-
-Sorting|?|The sorting of members
+sorting|?|?|The sorting of members
+default_accessors|acessor set|?|The set of acessors to generate for each attribute that does not specify its accessors
 
 ## JSON configuration file
 
