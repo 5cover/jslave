@@ -46,9 +46,9 @@ Members can be of two kinds:
 
 - **attributes** define the data fields of the type. They generate to Java class attributes, and getter/setter methods.
 - **methods** define the behaviors of the type. Methods that have a special meaning in Java (`equals`, `hashCode`, `toString`) are called **special methods**. They can be expressed in three forms:
-    - **stub**: an empty method to implement either from the generated Java or with a code block (more on these later)
-    - **default implementation**: a default, general-purpose implementation that should work for most cases
-    - **custom implementation**: the default implementation, customized by passing arguments to the method
+  - **stub**: an empty method to implement either from the generated Java or with a code block (more on these later)
+  - **default implementation**: a default, general-purpose implementation that should work for most cases
+  - **custom implementation**: the default implementation, customized by passing arguments to the method
 
 ### 2. Generate it
 
