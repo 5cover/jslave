@@ -34,9 +34,11 @@ Cons:
 
 ## Getting started
 
-### 1. Write your Ludocode file
+### 1. Write your Ludocode blueprint
 
 Your Ludocode file (idomatically called a **blueprint**) defines the structure of your Java code, and provides syntax for common patterns in order to avoid writing all that pesky Java boilerplate.
+
+The canonical file extension is `.bp`.
 
 More details about the syntax can be found in the [documentation](.), but the main idom is as follows:
 
