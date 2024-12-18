@@ -8,7 +8,7 @@ options {
 
 import Java20Parser;
 
-start_: blueprint EOF;
+file: blueprint EOF;
 
 blueprint
     : (annotation* PACKAGE Identifier (DOT Identifier)*)? // package
