@@ -1,4 +1,4 @@
-# JSlave CLI
+# Ludocode CLI
 
 ## Options
 

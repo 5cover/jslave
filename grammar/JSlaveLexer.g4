@@ -1,4 +1,4 @@
-lexer grammar JSlaveLexer;
+lexer grammar LudocodeLexer;
 
 import Java20Lexer;
 

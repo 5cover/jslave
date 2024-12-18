@@ -1,9 +1,9 @@
 // $antlr-format alignTrailingComments true, columnLimit 120, minEmptyLines 1, maxEmptyLinesToKeep 1, reflowComments false, useTab false alignSemicolons hanging, alignColons hanging
 
-parser grammar JSlaveParser;
+parser grammar LudocodeParser;
 
 options {
-    tokenVocab = JSlaveLexer;
+    tokenVocab = LudocodeLexer;
 }
 
 import Java20Parser;

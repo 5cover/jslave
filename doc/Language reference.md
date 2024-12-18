@@ -6,7 +6,7 @@
 
 A comment starts with `#` and lasts until the end of the current line. Shebangs are supported.
 
-```jslave
+```ludocode
 # This is a comment
 ```
 
@@ -14,7 +14,7 @@ A comment starts with `#` and lasts until the end of the current line. Shebangs 
 
 Attributes are defined using the same syntax as java, except that there is no terminating semicolon.
 
-```jslave
+```ludocode
 protected transient int attr {get}
 String val {get}
 final double g {get} = 9.81
@@ -106,17 +106,17 @@ list("separator", "last separator")|list of items separated by *separator*, exce
 
 ### Code blocks
 
-````jslave
+````ludocode
 ```
 any java code valid inside a class is supported in there
 ```
 ````
 
-Note: code blocks should be used as a last resort &mdash; as they are dumb. The Java code they contain is simply copied to the output at an unspecified location. Members they define aren't visible in Jslave and won't be sorted.
+Note: code blocks should be used as a last resort &mdash; as they are dumb. The Java code they contain is simply copied to the output at an unspecified location. Members they define aren't visible in Ludocode and won't be sorted.
 
 ### Includes
 
-```jslave
+```ludocode
 include "path" # Local include
 include <path> # Library include
 ```

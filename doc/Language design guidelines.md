@@ -1,6 +1,6 @@
 # Language design guidelines
 
-The JSlave language is designed around 3 core principles:
+The Ludocode language is designed around 3 core principles:
 
 ## Simplicity
 
