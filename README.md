@@ -1,4 +1,4 @@
-# Ludocode Blueprints (WIP)
+# JSlave Blueprints (WIP)
 
 Java boilerplate generator
 
@@ -21,7 +21,7 @@ Addtional features include:
 
 ## Advantages over snippets
 
-A Ludocode blueprint is self-contained and can be automated, unlike snippets/shortcuts which are IDE-dependent and require manual input. This approach has the following advantages:
+A JSlave blueprint is self-contained and can be automated, unlike snippets/shortcuts which are IDE-dependent and require manual input. This approach has the following advantages:
 
 - Blueprints can be passed around as files
 - Blueprints can generate to something else than Java
@@ -30,13 +30,13 @@ A Ludocode blueprint is self-contained and can be automated, unlike snippets/sho
 
 Cons:
 
-- Since we're no longer in a Java context, we won't recieve help much from the IDE while writing Ludocode (syntax highlighting, auto-completion&hellip;). This issue is mitigated by the simplicity of the language, and the future VSCode extension.
+- Since we're no longer in a Java context, we won't recieve help much from the IDE while writing JSlave (syntax highlighting, auto-completion&hellip;). This issue is mitigated by the simplicity of the language, and the future VSCode extension.
 
 ## Getting started
 
-### 1. Write your Ludocode blueprint
+### 1. Write your JSlave blueprint
 
-Your Ludocode file (idomatically called a **blueprint**) defines the structure of your Java code, and provides syntax for common patterns in order to avoid writing all that pesky Java boilerplate.
+Your JSlave file (idomatically called a **blueprint**) defines the structure of your Java code, and provides syntax for common patterns in order to avoid writing all that pesky Java boilerplate.
 
 The canonical file extension is `.bp`.
 
